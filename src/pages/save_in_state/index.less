@@ -1,0 +1,41 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  height: calc(100% - 24px * 6);
+  padding: 24px;
+}
+
+.srdDemoCanvas{
+  height: calc(100% - 22px - 16px * 2);
+  min-height: 300px;
+  background-color: rgb(60,60,60) !important;
+  @color: rgba(white, .05);
+  background-image:
+    linear-gradient(0deg,
+    transparent 24%,
+    @color 25%,
+    @color 26%,
+    transparent 27%,
+    transparent 74%,
+    @color 75%,
+    @color 76%,
+    transparent 77%,
+    transparent),
+    linear-gradient(90deg,
+    transparent 24%,
+    @color 25%,
+    @color 26%,
+    transparent 27%,
+    transparent 74%,
+    @color 75%,
+    @color 76%,
+    transparent 77%,
+    transparent);
+  background-size:50px 50px;
+
+  .pointui{
+    fill: rgba(white,0.5);
+  }
+
+}
