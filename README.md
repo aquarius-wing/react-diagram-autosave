@@ -18,7 +18,7 @@
 
 ## step of running in local env
 
-1. git clone 
+1. git clone https://github.com/Wing-Lo/react-diagram-autosave.git
 2. yarn
 3. npm run start
 4. view [save_in_state](http://localhost:8000/#/save_in_state)
